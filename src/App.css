@@ -1,0 +1,13 @@
+/* header related CSS----------- */
+.explore-anchor{
+    font-size: x-small!important;
+    text-decoration: none;
+    color: white;
+    font-style: italic;
+}
+.explore-anchor > span {
+    color: yellow;
+}
+.explore-anchor > span > img{
+    width: 5%;
+}
