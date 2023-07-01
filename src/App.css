@@ -94,15 +94,17 @@ body{
 }
 .left-banner{
     text-align: center;
-    height: 50%;
+    /* height: 75%; */
+    /* border: 1px solid green; */
+    width: 15%;
 }
 .row-title{
-    margin-top: 20%;
+    margin-top: 40%;
 }
 .left-banner > button{
     /* makes the width the side of its text and not parent component. */
-    width: inherit;
-    margin: 0 auto;
+    /* width: inherit; */
+    margin: 1% auto;
     border-radius: 0;
     font-size: small;
 }

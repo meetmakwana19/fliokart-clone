@@ -4,8 +4,8 @@ import HomeProduct from "./HomeProduct";
 
 export default function RowDiv(props){
     return(
-        <div className="row-div d-flex flex-row">
-            <div className="left-banner d-flex  flex-column w-25">
+        <div className="row-div d-flex flex-row w-75">
+            <div className="left-banner d-flex  flex-column">
                 <div className="row-title">
                     <h3>{props.title}</h3>
                 </div>
