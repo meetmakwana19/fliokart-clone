@@ -31,7 +31,7 @@ export default function Header() {
           <Form className="d-flex">
             <Form.Control
               type="search"
-              placeholder="Search"
+              placeholder="Search for products, brands and more"
               className="me-2 search-input h-75"
               aria-label="Search"
               data-bs-theme="light"

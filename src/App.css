@@ -27,3 +27,29 @@
     padding-right: 75%;
     border-radius: 0!important;
 }
+
+/* sub-header related CSS----------- */
+.sub-header{
+    height: 75%;
+    width: 100%;
+    -webkit-box-shadow: 0 4px 6px -6px #222;
+    -moz-box-shadow: 0 4px 6px -6px #222;
+    box-shadow: 0 4px 6px -6px #222;}
+
+.sub-sub-header{
+    height: 100%;
+    margin: 0 19%;
+    overflow: hidden;
+}
+.category-nav{
+    display: flex;
+    height: 100%;
+    margin: 1% 0;
+}
+.category-nav > img{
+    height: 100%;
+    width: inherit;
+}
+.category-nav > small{
+    font-weight: 500;
+}
