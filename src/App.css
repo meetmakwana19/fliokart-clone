@@ -54,6 +54,16 @@ body{
 .nav-link.show, .nav-link:focus, .nav-link:hover{
     color: white!important;
 }
+.navbar-toggler{
+    border-color: white!important;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+span.navbar-toggler-icon {
+    filter: invert(100%);
+}
+
 /* sub-header related CSS----------- */
 .sub-header{
     height: 75%;
@@ -230,6 +240,12 @@ body{
     
 }
 @media (width <= 1000px) {
+    .navbar{
+        padding: 1.5% 0!important;
+    }    
+    .navbar-nav > .login-div{
+        margin-right: 75%;
+    }
     .sub-sub-header{
         margin: 0;
     }
@@ -255,6 +271,7 @@ body{
         height: 75%!important;
         margin: 5% 5%;
         margin-right: 0;
+        font-size: small;
 
     }
 }

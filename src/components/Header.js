@@ -39,7 +39,6 @@ export default function Header() {
           </Form>
           <Nav
             className="my-2 my-lg-0 w-50"
-            style={{ maxHeight: "100px" }}
             navbarScroll
           >
             <Nav.Link href="#action1" className="login-div">
