@@ -167,3 +167,6 @@ body{
     background-color: #172337;
     color: white;
 }
+.footer ul{
+    list-style-type: none;
+}
