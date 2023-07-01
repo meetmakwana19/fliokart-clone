@@ -1,3 +1,8 @@
+/* global */
+body{
+    background-color: #f1f3f6;
+}
+
 /* header related CSS----------- */
 .container-fluid{
     padding: 0 21%;
@@ -34,8 +39,9 @@
     width: 100%;
     -webkit-box-shadow: 0 4px 6px -6px #222;
     -moz-box-shadow: 0 4px 6px -6px #222;
-    box-shadow: 0 4px 6px -6px #222;}
-
+    box-shadow: 0 4px 6px -6px #222;
+    background-color: white;
+}
 .sub-sub-header{
     height: 100%;
     margin: 0 19%;
@@ -52,4 +58,10 @@
 }
 .category-nav > small{
     font-weight: 500;
+}
+
+/* carousel related CSS----------- */
+
+.carousel{
+    margin: 1% auto;
 }
