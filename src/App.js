@@ -5,6 +5,7 @@ import CarouselBanner from "./components/CarouselBanner";
 import RowDiv from "./components/RowDiv";
 import OfferCards from "./components/OfferCards";
 import BigFooter from "./components/BigFooter";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <OfferCards/>
       <RowDiv title="Today's Fashion Deals" bg_image="https://rukminim1.flixcart.com/flap/278/278/image/e84ecf024bdc49f4.jpg?q=90"/>
       <BigFooter/>
+      <Footer/>
     </div>
   );
 }

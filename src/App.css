@@ -160,3 +160,10 @@ body{
     background-color: white;
     color: gray;
 }
+
+/* big-footer related  ------------*/
+
+.footer{
+    background-color: #172337;
+    color: white;
+}
