@@ -8,9 +8,10 @@ export default function RowDiv(props) {
     <div className="row-div d-flex flex-row w-75">
       <div className="left-banner d-flex  flex-column">
         <div className="row-title">
-          <h3>{props.title}</h3>
+          <p className="row-title-p">{props.title}</p>
         </div>
-        <Button variant="primary">VIEW ALL</Button>
+        <Button variant="primary" className="normal-btn">VIEW ALL</Button>
+        <Button variant="primary" className="small-btn" size="sm">VIEW ALL</Button>
         <br />
         <img src={props.bg_image} alt="Background" />
       </div>

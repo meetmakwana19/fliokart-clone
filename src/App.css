@@ -80,32 +80,6 @@ body{
 .category-nav > small{
     font-weight: 500;
 }
-@media (width <= 1000px) {
-    .sub-sub-header{
-        margin: 0;
-    }
-    .category-nav{
-        width: 75%;
-    }
-}
-@media (width <= 550px) {
-    .sub-sub-header{
-        margin: 0;
-        flex-wrap: wrap;
-    }
-    .category-nav{
-        width: 25%!important;
-        display: flex!important;
-    }
-    .carousel{
-        margin: 3% auto!important;
-        width: 95%!important;
-    }    
-    .row-div{
-        margin: 3% auto;
-    }
-    
-}
 
 /* carousel related CSS----------- */
 
@@ -145,6 +119,13 @@ body{
 }
 .row-title{
     margin-top: 70%;
+}
+.row-title-p{
+    font-weight: 400;
+    font-size: 2rem;
+}
+.small-btn{
+    display: none;
 }
 .left-banner > button{
     margin: 1% auto;
@@ -240,4 +221,91 @@ body{
     padding-top: 2% ;
     margin-top: 2% ;
     width: 100%;
+}
+
+@media (width <= 1400px) {
+    .row-title-p{
+        font-size: 1.5rem!important;
+    }
+    
+}
+@media (width <= 1000px) {
+    .sub-sub-header{
+        margin: 0;
+    }
+    .category-nav{
+        width: 75%;
+    }
+    .left-banner{
+        width: 25%!important;
+    }
+    .row-title-p{
+        font-size: 1rem!important;
+        margin: 2%;
+    }
+    .normal-btn{
+        display: none!important;
+    }
+    .small-btn{
+        display: block;
+        font-size: x-small!important;
+    }
+    .home-product{
+        width: 50%!important;
+        height: 75%!important;
+        margin: 5% 5%;
+        margin-right: 0;
+
+    }
+}
+@media (width <= 800px) {
+    .left-banner{
+        width: 30%!important;
+    }
+    .row-title-p{
+        font-size: 0.8rem!important;
+        margin: 5%;
+    }
+    .small-btn{
+        /* display: block; */
+        font-size: 0.45rem!important;
+        width: 80%!important;
+    }
+    .home-product{
+        width: 25%!important;
+        height: 50%!important;
+        margin: 5% 35%;
+    }
+
+
+}
+@media (width <= 550px) {
+    .sub-sub-header{
+        margin: 0;
+        flex-wrap: wrap;
+    }
+    .category-nav{
+        width: 25%!important;
+        display: flex!important;
+    }
+    .carousel{
+        margin: 3% auto!important;
+        width: 95%!important;
+    }    
+    .row-div{
+        margin: 3% auto;
+    }    
+    .left-banner{
+        width: 35%!important;
+    }
+    .row-title-p{
+        font-size: 0.6rem!important;
+        margin: 7%;
+    }
+    .small-btn{
+        /* display: block; */
+        font-size: 0.35rem!important;
+        width: 75%!important;
+    }
+
 }
