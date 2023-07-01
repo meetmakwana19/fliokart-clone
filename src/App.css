@@ -108,7 +108,7 @@ body{
     overflow: hidden;
 }
 
-/* multi-carousel related  */
+/* multi-carousel related  ------------*/
 .products-carousel{
     width: inherit!important;
 }
@@ -151,3 +151,4 @@ body{
 .home-product-text-div{
     margin-top: 10%;
 }
+
