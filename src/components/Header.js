@@ -11,10 +11,10 @@ export default function Header() {
   return (
     <Navbar expand="lg" bg="primary" data-bs-theme="dark" className="p-0">
       <Container fluid className="container-fluid">
-        <div className="p-0">
+        <div className="p-0 nav-div1">
           <Navbar.Brand href="#" className="d-flex flex-column p-0 m-0 nav-brand">
             <a href="/">
-              <Image src="images/flipkart-logo.png" className="w-25" />
+              <Image src="images/flipkart-logo.png" className="w-75"/>
             </a>
             <a href="/" className="explore-anchor">
               Explore{" "}
@@ -28,28 +28,26 @@ export default function Header() {
         <Navbar.Toggle aria-controls="navbarScroll" />
 
         <Navbar.Collapse id="navbarScroll">
-          <Form className="d-flex">
+          <Form className="d-flex w-50">
             <Form.Control
               type="search"
               placeholder="Search for products, brands and more"
-              className="me-2 search-input h-75"
+              className="me-2 search-input h-75 w-100"
               aria-label="Search"
               data-bs-theme="light"
             />
           </Form>
           <Nav
-            className="me-auto my-2 my-lg-0"
+            className="my-2 my-lg-0 w-50"
             style={{ maxHeight: "100px" }}
             navbarScroll
           >
-            <Nav.Link href="#action1">
+            <Nav.Link href="#action1" className="login-div">
               <Button
                 size="sm"
                 variant="light"
                 className="text-primary fw-bold"
-              >
-                Login
-              </Button>
+              >Login</Button>
             </Nav.Link>
             <Nav.Link href="#action2" className="active">Become a Seller</Nav.Link>
             <NavDropdown title="More" id="navbarScrollingDropdown" className="active">

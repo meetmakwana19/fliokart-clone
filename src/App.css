@@ -6,14 +6,23 @@ body{
 }
 
 /* header related CSS----------- */
+.navbar{
+    padding: 0.1% 0!important;
+}
 .container-fluid{
     padding: 0 21%;
 }
+.nav-div1{
+    width: 10%;
+}
 .navbar-brand{
-    margin-top: -10px!important;
+    margin-top: -4px!important;
+}
+.navbar-brand > a > img{
+    padding-top: 5%;
 }
 .explore-anchor{
-    font-size: x-small!important;
+    font-size: small!important;
     text-decoration: none;
     color: white;
     font-style: italic;
@@ -34,7 +43,13 @@ body{
     padding-right: 75%;
     border-radius: 0!important;
 }
-
+.navbar-nav > .login-div{
+    margin-right: 18%;
+}
+.nav-link{
+    margin: 0 2%;
+    font-weight: 500;
+}
 /* sub-header related CSS----------- */
 .sub-header{
     height: 75%;
