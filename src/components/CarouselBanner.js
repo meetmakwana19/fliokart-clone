@@ -2,7 +2,8 @@ import Carousel from 'react-bootstrap/Carousel';
 
 export default function CarouselBanner() {
   return (
-    <Carousel className='carousel w-75'>
+    // dark theme for dark buttons as it will get easy to handle in change by just changing the background color for the next, prev buttons
+    <Carousel className='carousel w-75' data-bs-theme="dark">
       <Carousel.Item>
         <img
           className="d-block w-100"

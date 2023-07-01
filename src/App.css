@@ -65,3 +65,22 @@ body{
 .carousel{
     margin: 1% auto;
 }
+.carousel-control-prev > span{
+    left: 0;
+    position: absolute;
+}
+.carousel-control-next > span{
+    right: 0;
+    position: absolute;
+}
+.carousel-control-next ,
+.carousel-control-prev{
+    opacity: 1;
+}
+.carousel-control-next > span,
+.carousel-control-prev > span{
+    background-color: black;
+    padding: 10%;
+    height: 40%;
+    border-radius: 5%;
+}
