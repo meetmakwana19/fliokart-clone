@@ -97,6 +97,14 @@ body{
         width: 25%!important;
         display: flex!important;
     }
+    .carousel{
+        margin: 3% auto!important;
+        width: 95%!important;
+    }    
+    .row-div{
+        margin: 3% auto;
+    }
+    
 }
 
 /* carousel related CSS----------- */
