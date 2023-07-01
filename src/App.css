@@ -152,3 +152,11 @@ body{
     margin-top: 10%;
 }
 
+/* big-footer related  ------------*/
+
+.big-footer{
+    font-size: small;
+    padding: 2% 2%;
+    background-color: white;
+    color: gray;
+}
