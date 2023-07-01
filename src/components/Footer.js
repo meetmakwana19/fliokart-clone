@@ -43,12 +43,30 @@ export default function Footer() {
               </Col>
               <Col>
                 <p>
-                  <small>SOCIAL</small>
+                  <small>
+                    <ul>
+                      <li>CONSUMER POLICY</li>
+                      <li>Return Policy</li>
+                      <li>Terms Of Us</li>
+                      <li>Security</li>
+                      <li>Privacy</li>
+                      <li>Sitemap</li>
+                      <li>Grievance Redressal</li>
+                      <li>EPR Compliance</li>
+                    </ul>
+                  </small>
                 </p>
               </Col>
               <Col>
                 <p>
-                  <small>CONSUMER POLICY</small>
+                  <small>
+                    <ul>
+                      <li>SOCIAL</li>
+                      <li>Facebook</li>
+                      <li>Twitter</li>
+                      <li>Youtube</li>
+                    </ul>
+                  </small>
                 </p>
               </Col>
             </Row>
@@ -60,31 +78,43 @@ export default function Footer() {
             <Row>
               <Col>
                 <p>
-                  <small>ABOUT</small>
+                  <small>
+                    <ul>
+                      <li>Mail Us:</li>
+                      <li>Flipkart Internet Private Limited,</li>
+                      <li>Buildings Alyssa, Begonia &</li>
+                      <li>Clove Embassy Tech Village,</li>
+                      <li>Outer Ring Road, Devarabeesanahalli Village,</li>
+                      <li>Bengaluru, 560103,</li>
+                      <li>Karnataka, India</li>
+                    </ul>
+                  </small>
                 </p>
               </Col>
               <Col>
                 <p>
-                  <small>HELP</small>
+                  <small>
+                    {" "}
+                    <ul>
+                      <li>Registered Office Address:</li>
+                      <li>Flipkart Internet Private Limited,</li>
+                      <li>Buildings Alyssa, Begonia &</li>
+                      <li>Clove Embassy Tech Village,</li>
+                      <li>Outer Ring Road, Devarabeesanahalli Village,</li>
+                      <li>Bengaluru, 560103,</li>
+                      <li>Karnataka, India</li>
+                      <li>CIN : U51109KA2012PTC066107</li>
+                      <li>Telephone: 044-45614700</li>
+                    </ul>
+                  </small>
                 </p>
               </Col>
-              <Col>
-                <p>
-                  <small>SOCIAL</small>
-                </p>
-              </Col>
-              <Col>
-                <p>
-                  <small>CONSUMER POLICY</small>
-                </p>
-              </Col>
-            </Row>
+A            </Row>
           </Container>
         </div>
       </div>
       <div className="bottom-footer">
         <Container>
-          {/* Stack the columns on mobile by making one full-width and the other half-width */}
           <Row>
             <Col>
               <p>
