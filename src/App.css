@@ -112,6 +112,22 @@ body{
 .products-carousel{
     width: inherit!important;
 }
+.react-multiple-carousel__arrow{
+    border-radius: 10%!important;
+    height: 30%;
+    background-color: white!important;
+}
+.react-multiple-carousel__arrow::before{
+    color: black!important;
+}
+.react-multiple-carousel__arrow--left{
+    left: 0!important;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+}
+.react-multiple-carousel__arrow--right{
+    right: 0!important;
+    box-shadow: rgba(0, 0, 0, 0.15) -2.4px 2.4px 3.2px;
+}
 
 .home-product{
     /* border: 1px solid red; */

@@ -62,16 +62,15 @@ export default function MultiCarousel() {
         product_info="Samsung Acer & More"
       />
       <HomeProduct
-        product_img="https://rukminim1.flixcart.com/image/200/200/l3ahpjk0/monitor/a/v/q/-original-imagefsf8hkyuhdj.jpeg?q=70"
-        product_title="Curved Monitors"
-        product_rate="From 7,999"
-        product_info="Samsung Acer & More"
+        product_img="https://rukminim1.flixcart.com/image/200/200/xif0q/bottle/s/c/d/1000-air-tight-fridge-school-collage-office-gym-men-women-kids-7-original-imagpfkxhjyu3twz.jpeg?q=70"product_title="Water Bottles"
+        product_rate="From 119"
+        product_info="Cello & More"
       />
       <HomeProduct
-        product_img=""
-        product_title=""
-        product_rate=""
-        product_info=""
+        product_img="https://rukminim1.flixcart.com/image/200/200/xif0q/chopper/8/b/f/-original-imagqtdmmxykt9d8.jpeg?q=70"
+        product_title="Chopper"
+        product_rate="From 99"
+        product_info="Pigeon & More"
       />
     </Carousel>
   );
