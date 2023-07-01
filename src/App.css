@@ -49,6 +49,10 @@ body{
 .nav-link{
     margin: 0 2%;
     font-weight: 500;
+    color: white;
+}
+.nav-link.show, .nav-link:focus, .nav-link:hover{
+    color: white!important;
 }
 /* sub-header related CSS----------- */
 .sub-header{

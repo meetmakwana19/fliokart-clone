@@ -9,7 +9,7 @@ import Button from "react-bootstrap/Button";
 
 export default function Header() {
   return (
-    <Navbar expand="lg" bg="primary" data-bs-theme="dark" className="p-0">
+    <Navbar expand="lg" bg="primary" data-bs-theme="" className="p-0">
       <Container fluid className="container-fluid">
         <div className="p-0 nav-div1">
           <Navbar.Brand href="#" className="d-flex flex-column p-0 m-0 nav-brand">
@@ -49,8 +49,8 @@ export default function Header() {
                 className="text-primary fw-bold"
               >Login</Button>
             </Nav.Link>
-            <Nav.Link href="#action2" className="active">Become a Seller</Nav.Link>
-            <NavDropdown title="More" id="navbarScrollingDropdown" className="active">
+            <Nav.Link href="#action2" className="active text-white">Become a Seller</Nav.Link>
+            <NavDropdown title="More" id="navbarScrollingDropdown" className="active text-white">
               <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action4">
                 Another action
@@ -60,7 +60,7 @@ export default function Header() {
                 Something else here
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="#" className="active">
+            <Nav.Link href="#" className="active text-white">
             <i class="bi bi-cart-fill"></i> Cart
             </Nav.Link>
           </Nav>
