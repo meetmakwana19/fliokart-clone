@@ -63,7 +63,7 @@ export default function Header() {
               </NavDropdown.Item>
             </NavDropdown>
             <Nav.Link href="#" className="active">
-              Cart
+            <i class="bi bi-cart-fill"></i> Cart
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
