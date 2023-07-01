@@ -1,13 +1,29 @@
 /* header related CSS----------- */
+.container-fluid{
+    padding: 0 21%;
+}
+.navbar-brand{
+    margin-top: -10px!important;
+}
 .explore-anchor{
     font-size: x-small!important;
     text-decoration: none;
     color: white;
     font-style: italic;
+    margin-top: -8px;
 }
 .explore-anchor > span {
     color: yellow;
 }
 .explore-anchor > span > img{
     width: 5%;
+}
+.search-input {
+    border: none;
+    border-radius: 0!important;
+}
+.nav-link > button{
+    padding-left: 75%;
+    padding-right: 75%;
+    border-radius: 0!important;
 }
