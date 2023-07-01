@@ -166,7 +166,31 @@ body{
 .footer{
     background-color: #172337;
     color: white;
+    padding: 2%;
 }
 .footer ul{
     list-style-type: none;
+}
+.footer-ul li{
+    margin: 4% 0;
+}
+.top-footer{
+    font-size: small;
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+.left-footer{
+    width: 60%;
+}
+.mail-ul{
+    border-left: 1px solid gray;
+}
+.footer-gray-text{
+    color: #878787;
+}
+.bottom-footer{
+    border-top: 1px solid gray;
+    padding-top: 2% ;
+    margin-top: 2% ;
+    width: 100%;
 }
