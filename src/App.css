@@ -84,3 +84,23 @@ body{
     height: 40%;
     border-radius: 5%;
 }
+
+/* RowDiv related CSS----------- */
+
+.left-banner{
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+    margin: 2% auto;
+    background-color: white;
+    text-align: center;
+    height: 50%;
+}
+.row-title{
+    margin-top: 20%;
+}
+.left-banner > button{
+    /* makes the width the side of its text and not parent component. */
+    width: inherit;
+    margin: 0 auto;
+    border-radius: 0;
+    font-size: small;
+}
