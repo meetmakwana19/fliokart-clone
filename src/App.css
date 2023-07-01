@@ -109,8 +109,12 @@ body{
     font-size: small;
 }
 .row-products{
-    align-items: flex-end;
+    overflow: hidden;
 }
 .home-product{
     border: 1px solid red;
+}
+
+.products-carousel{
+    width: inherit!important;
 }
