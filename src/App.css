@@ -80,6 +80,24 @@ body{
 .category-nav > small{
     font-weight: 500;
 }
+@media (width <= 1000px) {
+    .sub-sub-header{
+        margin: 0;
+    }
+    .category-nav{
+        width: 75%;
+    }
+}
+@media (width <= 550px) {
+    .sub-sub-header{
+        margin: 0;
+        flex-wrap: wrap;
+    }
+    .category-nav{
+        width: 25%!important;
+        display: flex!important;
+    }
+}
 
 /* carousel related CSS----------- */
 
