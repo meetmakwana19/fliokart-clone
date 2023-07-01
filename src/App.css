@@ -97,7 +97,7 @@ body{
     width: 15%;
 }
 .row-title{
-    margin-top: 40%;
+    margin-top: 70%;
 }
 .left-banner > button{
     margin: 1% auto;
@@ -117,7 +117,7 @@ body{
     /* border: 1px solid red; */
     height: 100%;
     margin: 4%;
-    margin: 10% 0;
+    margin: 10% 5%;
     align-items: center;
 
 }
