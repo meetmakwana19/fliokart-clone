@@ -94,16 +94,12 @@ body{
 }
 .left-banner{
     text-align: center;
-    /* height: 75%; */
-    /* border: 1px solid green; */
     width: 15%;
 }
 .row-title{
     margin-top: 40%;
 }
 .left-banner > button{
-    /* makes the width the side of its text and not parent component. */
-    /* width: inherit; */
     margin: 1% auto;
     border-radius: 0;
     font-size: small;
@@ -111,10 +107,31 @@ body{
 .row-products{
     overflow: hidden;
 }
-.home-product{
-    border: 1px solid red;
-}
 
+/* multi-carousel related  */
 .products-carousel{
     width: inherit!important;
+}
+
+.home-product{
+    /* border: 1px solid red; */
+    height: 100%;
+    margin: 4%;
+    margin: 10% 0;
+    align-items: center;
+
+}
+.home-prod-img-div {
+    min-height: 60%;
+    max-height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home-prod-img-div > img{
+    max-height: 100%;
+    max-width: 100%;
+}
+.home-product-text-div{
+    margin-top: 10%;
 }
